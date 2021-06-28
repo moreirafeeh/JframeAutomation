@@ -1,0 +1,141 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T18:08:36.917Z",
+        "line": 7,
+        "name": "Pesquisar Youtube",
+        "description": "",
+        "id": "pesquisar-google;pesquisar-youtube",
+        "after": [
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.schreenShot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6985500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A tela de Pesquisa Google",
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.a_tela_de_pesquisa_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 987400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "pesquisar Youtube",
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.pesquisar_youtube()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "aparecer Youtube",
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.aparecer_youtube()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-28T18:08:37.044Z",
+        "line": 12,
+        "name": "Contar Pesquisas",
+        "description": "",
+        "id": "pesquisar-google;contar-pesquisas",
+        "after": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.schreenShot()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "A tela de Pesquisa Google",
+            "match": {
+              "location": "automation.test.steps.aprendercucumber.a_tela_de_pesquisa_google()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1994200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Pesquisar 15",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15",
+                  "offset": 10
+                }
+              ],
+              "location": "automation.test.steps.aprendercucumber.pesquisar(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "valor da pesquisa 16",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 18
+                }
+              ],
+              "location": "automation.test.steps.aprendercucumber.valor_da_pesquisa(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisar Google",
+    "description": "",
+    "id": "pesquisar-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/aprender.feature",
+    "tags": []
+  }
+]
